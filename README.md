@@ -17,13 +17,13 @@ List of Files
 * util.c
 * makefile
 
-REQUIREMENTS
+Requirements
 ------------
 
 * gcc
 * make
 
-COMPILATION
+Compilation
 -----------
 
 To compile, run:
