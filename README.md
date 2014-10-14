@@ -28,8 +28,8 @@ COMPILATION
 
 To compile, run:
 
-	`make`
+	make
 
 To clean the compiled files, run:
 
-	`make clean`
+	make clean
