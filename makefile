@@ -1,15 +1,15 @@
 CC = gcc
 CFLAGS = -O -ggdb
-EXECUTABLE = lovecalc
-CFILES = main.c util.c calc.c print.c
+EXE = lovecalc
+CFILES = *.c
 HFILES = lovecalc.h
 
-all: $(EXECUTABLE)
-
-$(EXECUTABLE): $(CFILES)
-	$(CC) $(CFLAGS) $^ -o $@
+$(EXE): $(CFILES)
+	@$(CC) $(CFLAGS) $^ -o $@
+	@echo "$(EXE) created."
 
 $(CFILES): $(HFILES)
 
 clean:
-	rm -f $(EXECUTABLE)
+	@rm -f $(EXE)
+	@echo "Cleaned."
