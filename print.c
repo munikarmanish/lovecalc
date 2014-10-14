@@ -19,7 +19,7 @@ void print_usage (void)
 	"  -V, --version   Prints version info\n"
 	"\n"
 	"VERSION:\n"
-	"   1.2 (2014-08-30)\n"
+	"   1.0 \n"
 	"\n"
 	"AUTHOR:\n"
 	"   Manish Munikar (munikarmanish@gmail.com)\n"
@@ -47,5 +47,5 @@ void message (double result)
 void print_version(void)
 {
 	printf("%s",
-			" lovecalc 1.2 (2014-08-30) Manish Munikar \n");
+			" lovecalc v1.0 \n"
 }
