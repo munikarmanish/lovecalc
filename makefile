@@ -4,11 +4,9 @@ EXE = lovecalc
 CFILES = *.c
 HFILES = lovecalc.h
 
-$(EXE): $(CFILES)
-	@$(CC) $(CFLAGS) $^ -o $@
+$(EXE): $(CFILES) $(HFILES)
+	@$(CC) $(CFLAGS) $(CFILES) -o $@
 	@echo "$(EXE) created."
-
-$(CFILES): $(HFILES)
 
 clean:
 	@rm -f $(EXE)
